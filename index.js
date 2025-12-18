@@ -25,7 +25,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://geeth-client2o.vercel.app/"
+      "https://geeth-music2o.vercel.app/"
     ],
     credentials: true,
   })
