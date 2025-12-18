@@ -1,0 +1,151 @@
+{
+  "albums": [
+    {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine/cover.jpeg"
+    },
+    {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs1/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs1/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine1/cover.jpeg"
+    },
+    {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs2/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs2/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine2/cover.jpeg"
+    },
+      {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs3/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs3/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine3/cover.jpeg"
+    },
+      {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs4/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs4/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine4/cover.jpeg"
+    },
+      {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs5/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs5/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine5/cover.jpeg"
+    },
+      {
+      "folder": "HindiSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Ur Mine",
+      "description": "Songs for you",
+      "cover": "songs/HindiSongs6/cover.jpeg"
+    },
+    {
+      "folder": "KannadaSongs",
+      "albumsName": "Hindi Songs",
+      "title": "Kannada Beats",
+      "description": "Songs for you",
+      "cover": "songs/KannadaSongs6/cover.jpeg"
+    },
+    {
+      "folder": "Mine",
+      "albumsName": "Hindi Songs",
+      "title": "My beat",
+      "description": "Songs of melody",
+      "cover": "songs/Mine6/cover.jpeg"
+    }
+  ]
+}

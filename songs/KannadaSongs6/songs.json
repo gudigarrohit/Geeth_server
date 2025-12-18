@@ -1,0 +1,25 @@
+{
+  "songs": [
+    { "name": "Arere Avala Naguva", "file": "Arere Avala Naguva.mp3" },
+    { "name": "Bangle Bangari", "file": "Bangle Bangari.mp3" },
+    { "name": "Beauty Benkaiti", "file": "Beauty Benkaiti.mp3" },
+    { "name": "Belageddu", "file": "Belageddu.mp3" },
+    { "name": "Dwapara", "file": "Dwapara.mp3" },
+    { "name": "Hands Up", "file": "Hands Up.mp3" },
+    { "name": "Hithalaka Karibeda Maava", "file": "Hithalaka Karibeda Maava.mp3" },
+    { "name": "Innunu Bekagide", "file": "Innunu Bekagide.mp3" },
+    { "name": "Kadalanu", "file": "Kadalanu.mp3" },
+    { "name": "Kanmaniye", "file": "Kanmaniye.mp3" },
+    { "name": "Kavithe Kavithe", "file": "Kavithe Kavithe.mp3" },
+    { "name": "Maaya Gange", "file": "Maaya Gange.mp3" },
+    { "name": "Mathu Nannolu", "file": "Mathu Nannolu.mp3" },
+    { "name": "Mayavi", "file": "Mayavi.mp3" },
+    { "name": "Mugulu Nage", "file": "Mugulu Nage.mp3" },
+    { "name": "Mungaru Maleyalli", "file": "Mungaru Maleyalli.mp3" },
+    { "name": "Nannavale Nannavale", "file": "Nannavale Nannavale.mp3" },
+    { "name": "Pataki Poriyo", "file": "Pataki Poriyo.mp3" },
+    { "name": "Sapta Sagaradaache Elllo", "file": "Sapta Sagaradaache Elllo.mp3" },
+    { "name": "Shaakuntle Sikkalu", "file": "Shaakuntle Sikkalu.mp3" },
+    { "name": "Singara Siriye", "file": "Singara Siriye.mp3" }
+  ]
+}

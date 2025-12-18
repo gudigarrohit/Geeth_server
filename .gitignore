@@ -1,0 +1,4 @@
+# ignore sensitive files
+.env
+.env.local
+.env.production

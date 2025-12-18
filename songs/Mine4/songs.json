@@ -1,0 +1,21 @@
+{
+  "songs": [
+    { "name": "Bangle Bangari", "file": "Bangle Bangari.mp3" },
+    { "name": "Beauty Benkaiti", "file": "Beauty Benkaiti.mp3" },
+    { "name": "Dhadak", "file": "Dhadak.mp3" },
+    { "name": "Finding Her", "file": "Finding Her.mp3" },
+    { "name": "Hands Up", "file": "Hands Up.mp3" },
+    { "name": "Hithalaka Karibeda Maava", "file": "Hithalaka Karibeda Maava.mp3" },
+    { "name": "Jhol", "file": "Jhol.mp3" },
+    { "name": "Kadalanu", "file": "Kadalanu.mp3" },
+    { "name": "Maand", "file": "Maand.mp3" },
+    { "name": "Mayavi", "file": "Mayavi.mp3" },
+    { "name": "Nahin Milta", "file": "Nahin Milta.mp3" },
+    { "name": "Ratiyaan", "file": "Ratiyaan.mp3" },
+    { "name": "Sach Keh Raha Hai Deewana", "file": "Sach Keh Raha Hai Deewana.mp3" },
+    { "name": "Sahiba", "file": "Sahiba.mp3" },
+    { "name": "Sanson Ki Mala Pe", "file": "Sanson Ki Mala Pe.mp3" },
+    { "name": "Shaakuntle Sikkalu", "file": "Shaakuntle Sikkalu.mp3" },
+    { "name": "Singara Siriye", "file": "Singara Siriye.mp3" }
+  ]
+}
