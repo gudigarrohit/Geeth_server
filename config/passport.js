@@ -9,7 +9,7 @@ export default function setupPassport() {
       {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: "https://geeth-music2o.vercel.app/auth/google/callback",
+        callbackURL: "https://sensational-sfogliatella-fe6cfb.netlify.app/auth/google/callback",
       },
       async (accessToken, refreshToken, profile, done) => {
         try {

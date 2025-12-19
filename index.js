@@ -25,7 +25,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://geeth-music2o.vercel.app/"
+      "https://geeth-music2o.vercel.app/",
+      "https://sensational-sfogliatella-fe6cfb.netlify.app",
     ],
     credentials: true,
   })
