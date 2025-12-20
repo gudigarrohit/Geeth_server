@@ -118,7 +118,7 @@ router.get(
 router.get(
   "/google/callback",
   passport.authenticate("google", {
-    failureRedirect: "http://localhost:5173/login",
+    failureRedirect: "https://sensational-sfogliatella-fe6cfb.netlify.app/login",
   }),
   async (req, res) => {
     try {
@@ -149,14 +149,14 @@ router.get(
 
       if (!isProfileComplete) {
         // New / incomplete user → go to dashboard to fill details
-        return res.redirect("http://localhost:5173/dashboard");
+        return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/dashboard");
       }
 
       // Existing user with profile → go home
-      return res.redirect("http://localhost:5173/");
+      return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/");
     } catch (err) {
       console.error("Google callback error:", err);
-      return res.redirect("http://localhost:5173/login");
+      return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/login");
     }
   }
 );
