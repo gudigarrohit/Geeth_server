@@ -24,7 +24,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "",
+      "http://localhost:5173",
+      "https://sensational-sfogliatella-fe6cfb.netlify.app",
     ],
     credentials: true,
   })
