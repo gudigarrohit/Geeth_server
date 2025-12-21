@@ -23,6 +23,16 @@ function assignAdminIfEligible(user) {
   }
 }
 
+const isProd = process.env.NODE_ENV === "production";
+
+function setAuthCookie(res, token, maxAge) {
+  res.cookie("token", token, {
+    httpOnly: true,
+    secure: isProd,            // ✅ REQUIRED on Netlify
+    sameSite: isProd ? "none" : "lax", // ✅ REQUIRED cross-site
+    maxAge,
+  });
+}
 
 // Helper to create JWT
 function createToken(user) {
@@ -122,44 +132,36 @@ router.get(
   }),
   async (req, res) => {
     try {
-      // 👇 req.user is already the MongoDB User from passport.js
       const user = req.user;
 
       assignAdminIfEligible(user);
       await user.save();
 
-      // Create JWT token
-      const token = jwt.sign(
-        { id: user._id.toString(), role: user.role },
-        process.env.JWT_SECRET,
-        { expiresIn: "7d" }
-      );
+      const token = createToken(user);
 
-      // Save login cookie
-      res.cookie("token", token, {
-        httpOnly: true,
-        secure: false, // true in prod with HTTPS
-        sameSite: "lax",
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-      });
+      // ✅ FIXED COOKIE
+      setAuthCookie(res, token, 7 * 24 * 60 * 60 * 1000);
 
-      // Check whether profile is complete (decide first redirect)
       const isProfileComplete = Boolean(user.avatar && user.bio);
-      console.log("Profile completed:", isProfileComplete);
 
       if (!isProfileComplete) {
-        // New / incomplete user → go to dashboard to fill details
-        return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/dashboard");
+        return res.redirect(
+          "https://sensational-sfogliatella-fe6cfb.netlify.app/dashboard"
+        );
       }
 
-      // Existing user with profile → go home
-      return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/");
+      return res.redirect(
+        "https://sensational-sfogliatella-fe6cfb.netlify.app/"
+      );
     } catch (err) {
       console.error("Google callback error:", err);
-      return res.redirect("https://sensational-sfogliatella-fe6cfb.netlify.app/login");
+      return res.redirect(
+        "https://sensational-sfogliatella-fe6cfb.netlify.app/login"
+      );
     }
   }
 );
+
 router.post("/login", async (req, res) => {
   try {
     const { email, password, rememberMe } = req.body;
@@ -182,7 +184,7 @@ router.post("/login", async (req, res) => {
     if (!ok) {
       return res.status(400).json({ message: "Invalid credentials" });
     }
-    
+
     assignAdminIfEligible(user);
     await user.save();
 
